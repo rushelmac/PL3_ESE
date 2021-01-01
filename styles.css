@@ -1,4 +1,23 @@
-
+/* *{
+    background-image: url('museum2.jpg');
+    width: 100%; 
+} */
+body{
+    background: url('museum2.jpg')no-repeat center bottom/cover;
+}
 h1{
-    color: blue;
+    
+}
+#welcome{
+    text-align: center;
+}
+
+.txt-type > .txt {
+    border-right: 0.1rem solid #777;
+    color: maroon;
+    text-align: center;
+}
+
+.taglines {
+    padding: 0 25% 0% 42%;
 }
