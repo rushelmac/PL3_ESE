@@ -35,6 +35,7 @@ footer{
     height: auto;
     width: 100vw;
     color: #fff;
+    bottom: 0;
 }
 footer h3{
     align-self: center;
