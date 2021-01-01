@@ -24,3 +24,8 @@ h1{
 .taglines {
     padding: 0 25% 0% 42%;
 }
+
+.tagspan {
+    display: flex;
+    align-items: center;
+}
