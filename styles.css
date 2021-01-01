@@ -1,4 +1,4 @@
-html::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 *{
@@ -8,10 +8,12 @@ html::-webkit-scrollbar {
     padding: 0;
 }
 
+/* Heading text */
 #welcome{
     text-align: center;
 }
 
+/* Typewriter text */
 .txt-type > .txt {
     border-right: 0.1rem solid #777;
     color: maroon;
@@ -27,6 +29,7 @@ html::-webkit-scrollbar {
     align-items: center;
 }
 
+/* Footer */
 footer{
     background: #111;
     height: auto;
