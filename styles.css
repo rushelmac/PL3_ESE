@@ -45,11 +45,15 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 1rem 0;
 }
 .socials li{
     margin: 0 10px;
 }
 .socials a{
     color: white;
+}
+.socials a i{
+    size: 1.1rem;
+    transition: color .4s ease;
 }
