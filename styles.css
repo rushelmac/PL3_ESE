@@ -1,3 +1,6 @@
+html::-webkit-scrollbar {
+    display: none;
+}
 /* *{
     background-image: url('museum2.jpg');
     width: 100%; 
