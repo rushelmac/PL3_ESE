@@ -1,16 +1,13 @@
 html::-webkit-scrollbar {
     display: none;
 }
-/* *{
-    background-image: url('museum2.jpg');
-    width: 100%; 
-} */
-body{
-    background: url('museum2.jpg')no-repeat center bottom/cover;
+*{
+    /* background: url('museum2.jpg'); */
+    /* width: 100%;  */
+    margin: 0;
+    padding: 0;
 }
-h1{
-    
-}
+
 #welcome{
     text-align: center;
 }
@@ -28,4 +25,31 @@ h1{
 .tagspan {
     display: flex;
     align-items: center;
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    color: white;
 }
